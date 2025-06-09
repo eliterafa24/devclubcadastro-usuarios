@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #291942, #332043, #492c64);
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+.Container {
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-weight: bold;
+  background: #332043;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #8200cd;
+}
+
+.UserList {
+  margin-top: 30px;
+}
+
+.UserCard {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.UserCard p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: white;
+}
+
+.UserCard button {
+  background: #ff4d4d;
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.UserCard button:hover {
+  background: #e60000;
+}
