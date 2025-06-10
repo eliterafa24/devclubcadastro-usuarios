@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #291942, #332043, #492c64);
+  background: linear-gradient(to right, #3c4219, #234320, #3e642ce3);
   font-family: 'Arial', sans-serif;
   color: white;
 }
@@ -11,7 +11,7 @@ body {
   max-width: 400px;
   margin: 40px auto;
   padding: 20px;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(163, 157, 63, 0.644);
   border-radius: 15px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
@@ -39,7 +39,7 @@ input {
 button {
   padding: 10px;
   font-weight: bold;
-  background: #332043;
+  background: #214320;
   color: white;
   border: none;
   border-radius: 20px;
@@ -48,7 +48,7 @@ button {
 }
 
 button:hover {
-  background: #8200cd;
+  background: #205329;
 }
 
 .UserList {
@@ -56,7 +56,7 @@ button:hover {
 }
 
 .UserCard {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(71, 105, 51, 0.788);
   padding: 15px;
   margin-bottom: 15px;
   border-radius: 12px;
